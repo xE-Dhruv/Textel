@@ -101,6 +101,7 @@ function generateASCII() {
     asciiOutput.textContent = ascii;
 }
 
+
 // Download
 
 function downloadAs(format) {
@@ -164,6 +165,7 @@ function copyASCII() {
     });
 }
 
+
 // Upload button
 
 uploadBtn.addEventListener('click', () => {
@@ -187,6 +189,7 @@ uploadArea.addEventListener('dragleave', () => {
 
 uploadArea.addEventListener('drop', (e) => {
     e.preventDefault();
+    console.log('DROP DETECTED');
     uploadArea.style.opacity = '1';
     loadImage(e.dataTransfer.files[0]);
 });
