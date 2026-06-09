@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textel - ASCII Image Generator</title>
+    <meta name="description" content="Convert image to ASCII art">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.ico">
+</head>
+    
+    <script src="script.js"></script>
+<body>
+    <header>
+        <img src="logo.png" class="logo" alt="logo">
+        <h2 class="web-name">Textel</h2>
+    </header>
+
+    <section class="main" id="home">
+        <h1>Image to <span>ASCII</span> Art</h1>
+        <p class="main-sub">Convert any Image into ASCII art online. Fast, free and easy to use.</p>
+    </section>
+
+    <!-- Upload area -->
+    <div class="upload-area" id="uploadArea">
+        <button id="uploadbtn" class="upload-image">
+            <span class="material-symbols-outlined">upload</span>
+            Upload Image
+        </button>
+        <p class="drag-image">or drag and drop an image here</p>
+    </div>
+
+    <!-- Converter -->
+    <div class="converter-container" id="converterContainer">
+
+        <div class="input-panel">
+            <div class="panel-header">
+                <span>Input Image</span>
+                <button class="close-btn" id="closeBtn">✕</button>
+            </div>
+            <img id="preview" src="" alt="Preview">
+            <div class="settings">
+                <h3>Settings</h3>
+                <div class="setting-row">
+                    <label for="resolution">Resolution</label>
+                    <input type="range" min="10" max="300" value="120" id="resolution">
+                    <span id="resolutionVal">120</span>
+                </div>
+                <div class="setting-row">
+                    <label for="detail">Detail</label>
+                    <input type="range" min="0" max="100" value="80" id="detail">
+                    <span id="detailVal">80%</span>
+                </div>
+                <div class="setting-row">
+                    <label for="charSet">Characters</label>
+                    <select id="charSet">
+                        <option>@#%*+=-:.</option>
+                        <option>@$#*!;:,.</option>
+                        <option>█▓▒░ </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="result-panel">
+            <div class="panel-header">
+                <span>ASCII Art Result</span>
+                <div class="panel-actions">
+                    <button class="action-btn" id="downloadBtn">
+                    <span class="material-symbols-outlined">download</span>Download PNG</button>
+                    <button class="action-btn">
+                    <span class="material-symbols-outlined">content_copy</span>Copy</button>
+                </div>
+            </div>
+            <div class="ascii-output" id="asciiOutput"></div>
+        </div>
+
+    </div>
+
+    <section id="about">
+        <h2>About</h2>
+         <div class="faq-qa">
+        <div class="faq-item">
+            <p class="about-text">Textel is a free and open-source tool that converts images into ASCII art directly in your browser.
+               Simply upload an image and Textel will transform it into text-based artwork using ASCII characters.
+               No registration is required, and your images are processed locally in your browser for a fast and private experience.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <div class="faq-qa">
+            <div class="faq-item">
+            <h3>What is ASCII art?</h3>
+            <p>ASCII art is a form of digital art created using text characters instead of pixels.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Which image formats are supported?</h3>
+            <p>Textel supports common image formats such as PNG, JPG, JPEG and WebP.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Are my images uploaded to a server?</h3>
+            <p>No. Images are processed directly in your browser and are not uploaded or stored.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is Textel free to use?</h3>
+            <p>Yes. Textel is completely free and open source.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I download the generated ASCII art?</h3>
+            <p>Yes. You can copy or download the generated ASCII output.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why does the output look different from the original image?</h3>
+            <p>ASCII art uses text characters to represent an image, so some details may be simplified depending on the selected settings and image size.</p>
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Textel • Made with ❤️ by Dhruv Ahlawat</p>
+        <p>Open Source • MIT License</p>
+    </footer>
+</body>
+</html>
