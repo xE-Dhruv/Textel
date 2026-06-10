@@ -40,7 +40,7 @@ All processing happens locally in your browser, ensuring fast performance and co
 
 ## Screenshots
 
-
+<img width="2493" height="1196" alt="Image" src="https://github.com/user-attachments/assets/a43de34d-c48f-4417-a032-30e9fa6dfe9b" />
 ---
 
 ## How It Works
