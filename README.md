@@ -11,7 +11,7 @@ Convert images into ASCII art directly in your browser.
 
 </div>
 
----
+
 
 ## About
 
@@ -19,7 +19,6 @@ Textel is a lightweight web application that converts images into ASCII art.
 
 All processing happens locally in your browser, ensuring fast performance and complete privacy.
 
----
 
 ## Features
 
@@ -30,13 +29,13 @@ All processing happens locally in your browser, ensuring fast performance and co
 - No server required
 - Privacy-friendly
 
----
+
 
 ## Demo
 
 
 
----
+
 
 ## Screenshots
 
