@@ -8,10 +8,7 @@
 
 Convert images into ASCII art directly in your browser.
 
-
 </div>
-
-
 
 ## About
 
@@ -29,13 +26,9 @@ All processing happens locally in your browser, ensuring fast performance and co
 - No server required
 - Privacy-friendly
 
-
-
 ## Demo
 
-
-
-
+![Textel Demo](assets/demo.gif)
 
 ## Screenshots
 
