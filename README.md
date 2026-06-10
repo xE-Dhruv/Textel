@@ -1,10 +1,13 @@
 <div align="center">
 
+<p align="center">
+  <img src="logo.png" width="150" alt="Textel Logo">
+</p>
+
 # Textel
 
 Convert images into ASCII art directly in your browser.
 
-![Textel Logo](logo.png)
 
 </div>
 
