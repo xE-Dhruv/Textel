@@ -28,9 +28,7 @@ All processing happens locally in your browser, ensuring fast performance and co
 
 ## Demo
 
-<p align="center">
 ![Textel Demo](assets/demo.gif)
-</p>
 
 ## How It Works
 
